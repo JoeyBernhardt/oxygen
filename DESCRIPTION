@@ -13,3 +13,5 @@ Suggests: testthat,
     rmarkdown
 Imports: dplyr
 VignetteBuilder: knitr
+URL: https://github.com/JoeyBernhardt/oxygen
+BugReports: https://github.com/JoeyBernhardt/oxygen/issues
