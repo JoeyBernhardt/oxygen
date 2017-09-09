@@ -1,10 +1,12 @@
-##### script for converting torr to mg/l of oxygen
-
-## at 12C, oxygen solubility is 2.1415 umol/l/torr
-## at 16C, oxygen solubility is 1.9705 umol/l/torr
-## at 20C, oxygen solubility is 1.8230 umol/l/torr
-## at 24C, oxygen solubility is 1.6993 umol/l/torr
-
+#' Convert between oxygen in torr to mg per litre
+#'
+#' @param temperature
+#' @param oxygen_in_torr
+#'
+#' @return
+#' @export
+#'
+#' @examples
 torr_mgl <- function(temperature, oxygen_in_torr) {
   if (temperature == 16) {
     return(oxygen_in_torr*0.0000019705*32*1000)
