@@ -7,7 +7,9 @@
 torr_mgl(temperature, oxygen_in_torr)
 }
 \arguments{
-\item{oxygen_in_torr}{}
+\item{temperature}{temperature in degrees celcius}
+
+\item{oxygen_in_torr}{oxygen concentration in torr}
 }
 \description{
 Convert between oxygen in torr to mg per litre
