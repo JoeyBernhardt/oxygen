@@ -1,7 +1,7 @@
 #' Convert between oxygen in torr to mg per litre
 #'
-#' @param temperature
-#' @param oxygen_in_torr
+#' @param temperature temperature in degrees celcius
+#' @param oxygen_in_torr oxygen concentration in torr
 #'
 #' @return
 #' @export
